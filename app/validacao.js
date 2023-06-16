@@ -44,10 +44,8 @@ document.body.addEventListener('click', e => {
 })
 
 function gameOver(numero) {
-  if (numero.toUpperCase() === "game over") {
-
-            document.body.innerHTML =
-`<h1>O jogo acabou</h1>
+  if (numero === 'game over') {
+    document.body.innerHTML = `<div><h1>O jogo acabou</h1></div>
     <h3>O número secreto era: ${numeroSecreto}</h3>
     <button id="jogar-novamente" class="btn-jogar">Jogar Novamente</button>`
   }
