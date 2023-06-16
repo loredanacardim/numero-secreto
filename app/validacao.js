@@ -44,7 +44,7 @@ document.body.addEventListener('click', e => {
 })
 
 function gameOver(numero) {
-  if (chute.toUpperCase() === "game over") {
+  if (numero.toUpperCase() === "game over") {
 
             document.body.innerHTML =
 `<h1>O jogo acabou</h1>
