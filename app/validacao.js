@@ -48,7 +48,5 @@ function gameOver(numero) {
     document.body.innerHTML = `<div><h1>O jogo acabou</h1></div>
     <h3>O número secreto era: ${numeroSecreto}</h3>
     <button id="jogar-novamente" class="btn-jogar">Jogar Novamente</button>`
-    return (document.body.innerHTML = `<div><h1>O jogo acabou</h1></div>
-    <button id="jogar-novamente" class="btn-jogar">Jogar Novamente</button>`)
   }
 }
